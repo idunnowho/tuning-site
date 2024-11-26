@@ -21,7 +21,7 @@ export default function Suspension() {
     /* Sub Menu */
     if (step === 1) {
       if (option === 'in') {
-        setMessage("Stiffen the front spring rates")
+        setMessage("Stiffen the front spring rates or lower the front ride height")
       }
       if (option === 'through') {
         setMessage("Stiffen the rear anti roll bars")

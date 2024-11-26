@@ -8,7 +8,7 @@ export default function Downforce() {
   const handleOption = (option) => {
     if (step === 0) {
       if (option === 1)
-        setMessage("Reduce the front or rear downforce")
+        setMessage("Reduce the rear downforce")
     } if (option === 2) {
         setMessage("Increase the rear downforce for more grip")
     } if (option === 3) {
