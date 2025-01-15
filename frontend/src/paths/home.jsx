@@ -4,7 +4,7 @@ function Home() {
   return (
     <div 
       className="min-h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/src/assets/bgimage.jpg')" }}
+      style={{ backgroundImage: "url('/bgimage.jpg')" }}
     >
       <div className="min-h-screen bg-black bg-opacity-50">
         {/* This is my title */}
@@ -18,7 +18,7 @@ function Home() {
           <div className="flex flex-wrap justify-center gap-4">
             <div className="card card-compact w-72 shadow-xl backdrop-blur-sm bg-white/30">
               <figure>
-                <img src="/src/assets/brakes.webp" alt="brakes" className="w-full h-48 object-cover" />
+                <img src="/brakes.webp" alt="brakes" className="w-full h-48 object-cover" />
               </figure>
               <div className="card-body">
                 <h2 className="card-title text-white">Brakes</h2>
@@ -33,7 +33,7 @@ function Home() {
 
             <div className="card card-compact w-72 shadow-xl backdrop-blur-sm bg-white/30">
               <figure>
-                <img src="/src/assets/wing.jpg" alt="wing" className="w-full h-48 object-cover" />
+                <img src="/wing.jpg" alt="wing" className="w-full h-48 object-cover" />
               </figure>
               <div className="card-body">
                 <h2 className="card-title text-white">Downforce</h2>
@@ -48,7 +48,7 @@ function Home() {
 
             <div className="card card-compact w-72 shadow-xl backdrop-blur-sm bg-white/30">
               <figure>
-                <img src="/src/assets/suspension.jpg" alt="suspension" className="w-full h-48 object-cover" />
+                <img src="/suspension.jpg" alt="suspension" className="w-full h-48 object-cover" />
               </figure>
               <div className="card-body">
                 <h2 className="card-title text-white">Suspension</h2>
@@ -63,7 +63,7 @@ function Home() {
 
             <div className="card card-compact w-72 shadow-xl backdrop-blur-sm bg-white/30">
               <figure>
-                <img src="/src/assets/gearing.webp" alt="gearing" className="w-full h-48 object-cover" />
+                <img src="/gearing.webp" alt="gearing" className="w-full h-48 object-cover" />
               </figure>
               <div className="card-body">
                 <h2 className="card-title text-white">Gearing</h2>
